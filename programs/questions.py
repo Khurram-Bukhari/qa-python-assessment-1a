@@ -33,9 +33,20 @@
 
 # What was the name of the function we have seen to check the length of a container?  Use your CLI to access the Python documentation and get help(len).
 
+from ast import Num
+from tracemalloc import stop
 
-def one(input1, input2):
-    return ""
+
+def one(str1, str2):
+    if (len(str1) == len(str2)):
+        return str(f"({str1} + " " + {str2})")
+    elif len(str1) > len(str2):
+        return len(str1)
+    else:
+        return(str2)
+
+
+
 
    # <QUESTION 2>
 
@@ -61,7 +72,14 @@ def one(input1, input2):
 
 
 def two(input):
-    return ""
+    str = input.lower()
+    word = "bert"
+    if word.count == 2:
+        return word<" ">word
+    elif not word.count == 2:
+        return ""
+
+
 
 
     # <QUESTION 3>
@@ -84,8 +102,17 @@ def two(input):
     # No Hints for this question
 
 
-def three(arg1):
-    return ""
+def three(i):
+for i in range(1, 1000):
+i = Num
+    if i % 3 == 0
+        return("fizz")
+    elif i % 5 == 0:
+        return("buzz")
+    elif i % 3 and 5 == 0:
+        return "fizzbuzz"
+    else:
+        return "null"
 
     # <QUESTION 4>
 
